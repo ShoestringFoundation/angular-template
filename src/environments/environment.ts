@@ -4,7 +4,6 @@
 
 export const environment = {
   production: false,
-  ga: false,
   firebase: {
     apiKey: '{{FIREBASE_API_KEY}}',
     authDomain: '{{FIREBASE_AUTH_DOMAIN}}',
