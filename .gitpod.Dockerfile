@@ -4,7 +4,7 @@ FROM gitpod/workspace-full
 USER gitpod
 
 RUN sudo apt-get -q update && \
-    sudo apt-get install -yq chromium-browser && \
+    sudo apt-get install -yq chromium chromium-driver && \
     sudo rm -rf /var/lib/apt/lists/*
 
 # Install headless Chrome
