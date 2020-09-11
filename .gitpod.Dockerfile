@@ -4,5 +4,5 @@ FROM gitpod/workspace-full
 RUN npm install -g firebase-tools && npm install -g @angular/cli
 
 # Install headless Chrome
-RUN apt-get install -yq chromium chromium-driver
+RUN apt-get install -yq chromium
 ENV CHROME_BIN=/usr/bin/chromium-browser
